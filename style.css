@@ -1,4 +1,18 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    background-color: antiquewhite;
 }
+
+#header-div{
+    color: rgb(127, 81, 81);
+}
+
+#paragraph-div {
+    color: rgb(127, 81, 81); 
+}
+
+#list {
+    list-style: none;
+}
+
