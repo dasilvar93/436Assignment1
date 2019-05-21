@@ -3,10 +3,9 @@ jsonObj = {"iceCreams":["Vanilla", "Chocolate", "Banana"]}
 function initList() {
     var initMes = jsonObj;
     var ul = document.getElementById("list");
-    var li = document.createElement("li");
     for (var i = 0; i < initMes.iceCreams.length; i++){
-        let curr = initMes.iceCreams[i];
-        li.setAttribute('id', curr);
+        var curr = initMes.iceCreams[i];
+        var li = document.createElement("li");
         li.appendChild(document.createTextNode(curr + judge(curr)));
         ul.appendChild(li);
     }
