@@ -1,1 +1,25 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="PractiseWebsite.js"></script>
+    </head>
+    <body>
+        <div id="about-div"><a href="AboutPractiseWebsite.html">
+            About
+        </a></div> 
+        <div id="paragraph-div">
+            <p>Tell me your favourite ice cream! I will give you an opinion</p>
+        </div>
+        <div id="form-div">
+            <form onsubmit="add(this.text.value); return false;">
+                <label>
+                    What is your favourite ice cream?:
+                    <input name="text" type="text" maxlength="128" id="text-id"/>
+                </label>
+                <br />
+                <input type="submit" value="JUDGE ME" action="judge();"/>
+            </form>
+        </div>
+    </body>
+</html>
